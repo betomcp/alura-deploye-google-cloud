@@ -21,7 +21,7 @@ describe('classe fornecedor', () => {
 
     await fornecedor.criar()
 
-    expect(fornecedor.id).toBe(500)
+    expect(fornecedor.id).toBe(502)
     expect(fornecedor.dataCriacao).toBe('10/02/2022')
     expect(fornecedor.dataAtualizacao).toBe('12/11/1234')
     expect(fornecedor.versao).toBe(90)
